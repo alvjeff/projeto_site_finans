@@ -10,6 +10,7 @@
 
     <!--fonte awesome-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c788f04711.js" crossorigin="anonymous"></script>
 
     <!--estilo customizado-->
     <link rel="stylesheet" href="/css/estilo.css">
@@ -58,11 +59,35 @@
     <section id="home"><!--inicio da secao home-->
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    texto
-                </div>
-                <div class="col-sm-6">
-                    imagem
+                <div class="col-md-6 d-flex"> <!--texto da secao-->
+                    <div class="align-self-center"><!--obs1-->
+                        
+                        <h1 class="display-4">Suas contas descomplicadas</h1>
+                        <p>
+                            Usado por mais de 1 milhao de pessoas, o Finans eh uma ferramenta oline que vai facilitar sua vida financeira.
+                        </p>
+                        
+                        <form action="" class="mt-4 mb-4">
+                            <div class="input-group input-group-lg">
+                                <input type="text" name="" id="" placeholder="Seu-email" class="form-control">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary">Cadastre-se</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <p>Disponivel para
+                            <a href="" class="btn btn-outline-light">
+                                icone android
+                            </a>
+                            <a href="" class="btn btn-outline-light">
+                                icone apple
+                            </a>
+                        </p>
+                    </div>
+                </div><!--fim de textos da secao-->
+                <div class="col-md-6 d-none d-sm-block"><!--obs2-->
+                    <img src="/img/capa-mulher.png" alt="">
                 </div>
             </div>
         </div>
@@ -73,5 +98,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--kit font awesome-->
+    
   </body>
 </html>
+
+<!--obs1 - esta classe centralizou o conteudo, mas so foi possivel com o d-flex da classe ascendente.-->
+
+<!--obs2 - para ter esse efeito da imagem sumir em dispositivos menores usar a classe 'd-none' que eh display none e depois 'd-sm-block' que eh para o display ficar em bloco em dispositivos maiors que sm(small) e ficar none em menores que isso-->
