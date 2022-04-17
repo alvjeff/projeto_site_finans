@@ -4,8 +4,8 @@ Projeto feito por meio do curso de desenvolvimento web completo, usando as tecno
 - css 
 - bootstrap.
 
-## Tela normal
+## Layout em tela de PC
 ![Dispositivos desktop](/img/finans-telacheia.png)
 
-## Telas menores
+## Layout em telas menores
 ![Tablets e smartphones](/img/finans-telamenor.png)
